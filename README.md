@@ -57,7 +57,7 @@ Follow these steps for completing your project.
 
 - Import the useState hook and utilize what we learned about two-way data binding
 
-- Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
+- Render your `Form` component in `App` and pass a setter method (the `set_____` (setTeam) method from your team members state in `App`) down to it so you can add team members (membersInfo) to your state. done! 
 
 Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
 
