@@ -22,16 +22,16 @@ In this project you'll build an app that will keep track of memebers of a team. 
 - [x ] Use `npx create-react-app team-builder` or `create-react-app team-builder` to initiate the project.
 - [x ] CD into your `team-builder` directory
 - [x ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x ] Add your team lead as a reviewer on the pull-request
+- [x ] Your team lead will count the project as complete by merging the branch back into master.
+- [x ] Do your magic!
 
 ## Minimum Viable Product
 
@@ -40,11 +40,14 @@ Follow these steps for completing your project.
 
 ### STEP 1 - Setup your state
 
-- Import the `useState` hook and set up a state property for your team members list
+- Import the `useState` hook and set up a state property for your team members list 
+  Done. note: this is the whole list of the team, not just each person.
 
-- Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
+- Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them. 
+  Done. note: array with an object that has key:value pairs. just an object wouldn't work. 
 
-- Render your list of team members
+- Render your list of team members ?? 
+  Is another way to look at render return....?
 
 ### STEP 2 - Build your form
 

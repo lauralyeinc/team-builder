@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+
 import './App.css';
 
 function App() {
+
+  const [team, setTeam] = useState([]); 
+   
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {team.map((element) => {
+        return(
+          <div className="Team-Area">
+            <h2>{element.name}</h2>
+            <h3>{element.email}</h3>
+            <p>{element.role}</p>
+            </div>
+        )
+      })}
+      </div>
   );
 }
 
-export default App;
+export default App; 
